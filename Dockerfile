@@ -7,5 +7,8 @@ WORKDIR /challenge
 
 ## Install your dependencies here using apt install, etc.
 
+
 ## Include the following line if you have a requirements.txt file.
 RUN pip install -r requirements.txt
+
+# CMD ["python", "./train_model.py"]
